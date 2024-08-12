@@ -23,3 +23,7 @@ body {
     gap: 20px;
     font-size: 30px;
 }
+
+a {
+    text-decoration: none;
+}
