@@ -11,15 +11,15 @@ console.log(follow.offsetLeft, follow.offsetTop);
 
 function chase(e){
     if (ufoPosX > e.clientX) {
-        ufoPosX = ufoPosX - 1;
+        ufoPosX = ufoPosX - 2;
     } else if (ufoPosX < e.clientX) {
-        ufoPosX = ufoPosX + 1;
+        ufoPosX = ufoPosX + 2;
     }
 
     if (ufoPosY > e.clientY) {
-        ufoPosY = ufoPosY - 1;
+        ufoPosY = ufoPosY - 2;
     } else if (ufoPosY < e.clientY) {
-        ufoPosY = ufoPosY + 1;
+        ufoPosY = ufoPosY + 2;
     }
     console.log(ufoPosX, e.clientX)
     follow.style.left = `${ufoPosX}px`;
