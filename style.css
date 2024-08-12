@@ -3,9 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    padding: 20px;
-    padding-bottom: 0px;
     font-family: "Comic Neue", cursive;
+    margin: 0px;
 }
 
 #container {
@@ -15,11 +14,17 @@ body {
     cursor: url('img/COW64.png'), auto;
 }
 
+#follow {
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
 .links {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
     gap: 20px;
     font-size: 30px;
 }
