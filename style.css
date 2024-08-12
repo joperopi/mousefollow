@@ -12,12 +12,19 @@ body {
     width: 100%;
     height: 90vh;
     cursor: url('img/COW64.png'), auto;
+    overflow: hidden;
 }
 
 #follow {
     position: relative;
-    left: 50px;
-    top: 20px;
+    left: 500px;
+    top: 300px;
+}
+
+.ufo {
+    position: relative;
+    left: -60px;
+    top: -75px;
 }
 
 .links {
